@@ -1,0 +1,8 @@
+STORAGE: NONE
+COPY-LOCAL: TRUE
+RESTRICTION: == net50
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Autofac (6.1)
+      System.Diagnostics.DiagnosticSource (>= 4.7.1)
+    System.Diagnostics.DiagnosticSource (5.0.1)

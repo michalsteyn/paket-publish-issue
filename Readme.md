@@ -20,3 +20,10 @@ This was tested on the following environment:
 * OS: Windows 10,
 * .Net SDK: 5.0.201
 * Paket: 6.0.0-beta8
+
+Running the published executable using the Paket version results in:
+```
+Unhandled exception. System.IO.FileNotFoundException: Could not load file or assembly 'Autofac, Version=6.1.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'. The system cannot find the file specified.
+File name: 'Autofac, Version=6.1.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'
+   at PaketPublish.Program.Main(String[] args)
+```

@@ -1,0 +1,7 @@
+framework: net5.0
+storage: none
+copy_local: true
+
+source https://api.nuget.org/v3/index.json
+
+nuget Autofac 6.1.0
